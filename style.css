@@ -1,0 +1,22 @@
+.box{
+  border: 1px solid red;
+  display: flex;
+  #width: 20%;
+  flex: 1;
+  height: 20%;
+ 
+}
+#game_container{
+  height: 100vw;
+  width: 100vh;
+  display: flex;
+  flex-flow: row;
+  background-color: lavender;
+  justify-content: space-around;
+}
+.selected{
+  border: 1px solid blue;
+}
+.matched{
+  opacity: .2;
+}
